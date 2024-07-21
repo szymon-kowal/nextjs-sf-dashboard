@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --border-width: 2px;
+  --border-color: grey;
+}
+
+.root-layout {
+  display: grid;
+  grid-template-areas:
+    'header1 header2'
+    'sidebar main';
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 250px 1fr;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.sidebarGrid {
+  grid-area: sidebar;
+}
+
+.mainGrid {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px;
+}

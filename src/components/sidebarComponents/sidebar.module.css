@@ -1,0 +1,31 @@
+.sidebar {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 12px;
+  text-wrap: nowrap;
+  background-color: rgb(247, 247, 247);
+  color: black;
+  border-right: solid var(--border-width) var(--border-color);
+  border-bottom: solid var(--border-width) var(--border-color);
+  border-top: solid var(--border-width) var(--border-color);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.vert-line {
+  height: var(--border-width);
+  width: 100%;
+  margin-left: 10px;
+  background-color: var(--border-color);
+}
+
+.elementContainer {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.itemContainer {
+  display: flex;
+  gap: 15px;
+}
