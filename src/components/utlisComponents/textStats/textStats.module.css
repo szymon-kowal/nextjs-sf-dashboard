@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textNum {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.description {
+  color: gray;
+}
